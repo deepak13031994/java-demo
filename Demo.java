@@ -7,7 +7,7 @@ public class Demo {
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
         int b = sc.nextInt();
-        System.out.println("Sum: "  (a + b));
+        System.out.println("Sum: " + (a + b));
         sc.close();
     }
 }
