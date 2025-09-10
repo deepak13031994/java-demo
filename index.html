@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicious Bites - Food Service</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #fafafa;
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(90deg, #ff6b6b, #ff9f43);
+            color: #fff;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 1.8rem;
+        }
+
+        nav a {
+            color: #fff;
+            margin-left: 1.5rem;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 4rem 2rem;
+            background: url('https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1600&q=80') no-repeat center center/cover;
+            color: white;
+        }
+
+        .hero h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+        }
+
+        .hero button {
+            padding: 0.8rem 1.5rem;
+            background: #ff6b6b;
+            border: none;
+            color: #fff;
+            font-size: 1rem;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .hero button:hover {
+            background: #ff4757;
+        }
+
+        .services {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding: 3rem 2rem;
+            background: #fff;
+        }
+
+        .card {
+            background: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            width: 280px;
+            margin: 1rem;
+            padding: 1.5rem;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+        }
+
+        .card img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+
+        .card h3 {
+            margin-top: 1rem;
+            color: #ff6b6b;
+        }
+
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1.5rem;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Delicious Bites</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Menu</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Fresh & Tasty Meals Delivered To You</h2>
+        <p>Order from our wide range of cuisines prepared with love and care.</p>
+        <button>Order Now</button>
+    </section>
+
+    <section class="services">
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1600891963935-cf44c4a55ed0?auto=format&fit=crop&w=600&q=80"
+                alt="Pizza">
+            <h3>Pizza Delight</h3>
+            <p>Hot and cheesy pizzas made with fresh ingredients.</p>
+        </div>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=600&q=80"
+                alt="Salad">
+            <h3>Healthy Salads</h3>
+            <p>Nutritious and delicious salads for a healthy lifestyle.</p>
+        </div>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=600&q=80"
+                alt="Dessert">
+            <h3>Sweet Treats</h3>
+            <p>Indulge yourself with our irresistible desserts.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Delicious Bites | All Rights Reserved</p>
+    </footer>
+</body>
+
+</html>
